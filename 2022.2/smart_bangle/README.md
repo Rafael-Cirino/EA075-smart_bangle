@@ -13,9 +13,9 @@ oferecida no segundo semestre de 2022, na Unicamp, sob supervisão da Profa. Dra
 > | Tarciso Hattum | 224622 | Eng. Elétrica|
 
 ## Arquivos Importantes
-> - **[Esquemático em PDF]()**
+> - **[Esquemático em PDF](https://github.com/Rafael-Cirino/EA075-smart_bangle/tree/main/2022.2/smart_bangle/pdf)**
 > - **[Lista de Componentes](https://github.com/Rafael-Cirino/EA075-smart_bangle/blob/main/2022.2/smart_bangle/components.md)**
-> - **[PCB]()**
+> - **[PCB](https://github.com/Rafael-Cirino/EA075-smart_bangle/tree/main/2022.2/smart_bangle/3d_models)**
 
 ## Descrição do Projeto
 > Seja em lugares com muitas ou poucas pessoas é necessário que a empresa administradora do local possua controle sobre o acesso de público, monitore a sua permanência durante evento ou interaja com ele proporcionando a melhor experiência possível, criando assim uma lembrança afetiva entre a marca e o cliente.
