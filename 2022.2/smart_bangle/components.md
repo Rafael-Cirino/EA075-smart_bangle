@@ -6,7 +6,7 @@
 
 > **Chipset STEVAL-ISB038V1R**: https://www.st.com/resource/en/user_manual/um2098-getting-started-with-the-stevalisb038v1r-wearable-wireless-power-receiver-based-on-stwlc04-stmicroelectronics.pdf
 
-> **Oscilador de cristal GRX-210**: https://www.digchip.com/datasheets/parts/datasheet/2/943/GRX-210-pdf.php
+> **Oscilador de cristal GRX-210**: https://www.digchip.com/datasheets/download_datasheet.php?id=891321&part-number=GRX-210&type=pn2
 
 > **Bateria CR2025**: https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/246927
 
