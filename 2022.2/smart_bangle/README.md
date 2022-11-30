@@ -12,6 +12,8 @@ oferecida no segundo semestre de 2022, na Unicamp, sob supervisão da Profa. Dra
 > | Rafael Cirino | 223730  | Eng. Elétrica|
 > | Tarciso Hattum | 224622 | Eng. Elétrica|
 
+## Arquivos Importantes
+> - **[Lista de Componentes](https://github.com/Rafael-Cirino/EA075-smart_bangle/blob/main/2022.2/smart_bangle/components.md)**
 
 ## Descrição do Projeto
 > Seja em lugares com muitas ou poucas pessoas é necessário que a empresa administradora do local possua controle sobre o acesso de público, monitore a sua permanência durante evento ou interaja com ele proporcionando a melhor experiência possível, criando assim uma lembrança afetiva entre a marca e o cliente.
