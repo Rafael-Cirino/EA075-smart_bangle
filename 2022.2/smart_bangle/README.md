@@ -106,7 +106,7 @@ oferecida no segundo semestre de 2022, na Unicamp, sob supervisão da Profa. Dra
 >
 
 
-<img src="smart-bangle_ea075.drawio.svg" width=120% height=120%>
+<img src="images/smart-bangle_ea075.drawio.svg" width=120% height=120%>
 
 ## Especificações (NOVO)
 
@@ -129,7 +129,7 @@ A seguir são definidos os algoritmos para cada evento e uma aproximação para 
 
 > A seguir temos o fluxograma do nosso algoritmo principal a main, ela é responsável por fazer o processo de incialização do sistema deixando-o pronto para receber comandos. Após inicializar os módulos, o sistema fica em loop até que seja desligado, enquanto isso não acontece ele fica sujeito a interrupção dos eventos em standby, entretanto, se a bateria estiver baixa, o estado de economia será ativado, e o sistema fica inerte até que seja conectado ao carregador.
 
-<img src="alg_main.svg" width=40% height=40%>
+<img src="images/alg_main.svg" width=40% height=40%>
 
 #### Carregamento e economia
 
@@ -137,7 +137,7 @@ A seguir são definidos os algoritmos para cada evento e uma aproximação para 
 
 > Quando uma carga por indução for conectada será gerada uma interrução que chama o evento carregamento, que também controla o led de estado, desligando-o caso a carga seja desconectada ou ativando a cor conforme o nível de bateria vai aumentando.
 
-<img src="alg_carregamento.svg" width=60% height=60%>
+<img src="images/alg_carregamento.svg" width=60% height=60%>
 
 #### Comunicação sem fio
 
@@ -158,35 +158,35 @@ A seguir são definidos os algoritmos para cada evento e uma aproximação para 
  | 10 | Chama o evento Alerta/Aviso |
  | 11 | Chama o evento Festa e depois Alerta/Aviso |
 
-<img src="alg_sem_fio.drawio.svg" width=40% height=40%>
+<img src="images/alg_sem_fio.drawio.svg" width=40% height=40%>
 
 #### Evento festa
 
 > Este evento é chamado após a decodificação da mensagem pelo envento comunicação sem fio, aqui são ativados os módulos necessários para acionamento do led(rgb e TC). Para definir qual led será acionado segue se a seguinte padronização, xxx = rgb, ondea cada bit conrresponde a um led. Para ativar a cor é utilizado como referência a imagem abaixo, quando estão todos acionados se tem a cor branca, e assim serve para as demais.
 
-<img src="cores-rgb.jpg" width=20% height=20%>
+<img src="images/cores-rgb.jpg" width=20% height=20%>
 
 > Para ativar o tempo de acionamento é utilizado o relógio interno do processador TC. Como o olho humano pisca a cada 0.2s, foi definido como tempo base 0.25s, desse modo quando temos ttt=0 -> 0s, ttt=1 -> 0.25s, ttt=2 -> 0.5s ... ttt=7 -> 1.75s, desse modo, é possível configurar um tempo de delay de 0.25s até 1.75s.
 
-<img src="alg_led.svg" width=40% height=40%>
+<img src="images/alg_led.svg" width=40% height=40%>
 
 #### Evento alerta/aviso
 
 > Este evento é chamado após o processmento da mensagem, primeiramente é definido quantas vezes o módulo vai vibrar tendo como o base o valor 3, portanto, se vvv=1 -> 3 vezes, vvv=2 -> 6 vezes ... vvv=7 -> 21 vezes. E o tempo entre cada vibração tem como base 0.5s, caso ttt=1, vibra por 0.5s e fica sem vibrar por 0.5s, isso será feitos conforme o número de vezes difinido em vvv.
 
-<img src="alg_Alerta_Aviso.svg" width=60% height=60%>
+<img src="images/alg_Alerta_Aviso.svg" width=60% height=60%>
 
 #### Relógio TC
 
 > Acionado via interrupção conforme o tempo definido no evento festa ou Alerta/Aviso. Primeiramente verifica se precisa acionar o led, caso seja acionado muda a variável led_pisca para False, desse modo, na próxima interrupção o led será apagado criando o efeito de pisca pisca. No próximo if ele analisa se precisa acionar o vibra call, aciona e decrementa 1 da variável que armazenar a quantidade de acionamentos faltantes.
 
-<img src="relogio_tc.svg" width=60% height=60%>
+<img src="images/relogio_tc.svg" width=60% height=60%>
 
 #### Memória
 
 > A seguir temos uma previsão de memória ocupada, ela foi feita com base nas variáveis que serão criadas e com uma estimativa retirada dos labs de EA871 para a incialização dos módulos. Considerando uma margem de erro de 50% temos que a memória mínima necessária é de aproximadmente 30KB.
 
-<img src="memória utilizada.PNG" width=60% height=60%>
+<img src="images/memória utilizada.PNG" width=60% height=60%>
 
 ## Referências
 > - https://pvieito.com/2016/09/xyloband-reverse-engineering
