@@ -108,7 +108,7 @@ oferecida no segundo semestre de 2022, na Unicamp, sob supervisão da Profa. Dra
 
 <img src="images/smart-bangle_ea075.drawio.svg" width=120% height=120%>
 
-## Especificações (NOVO)
+## Especificações
 
 ### Especificação Estrutural
 
