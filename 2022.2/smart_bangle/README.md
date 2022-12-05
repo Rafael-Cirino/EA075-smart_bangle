@@ -188,6 +188,10 @@ A seguir são definidos os algoritmos para cada evento e uma aproximação para 
 
 <img src="images/memória utilizada.PNG" width=60% height=60%>
 
+### PCB
+
+<img src="3d_models/3d_models.png" width=60% height=60%>
+
 ## Referências
 > - https://pvieito.com/2016/09/xyloband-reverse-engineering
 > - https://www.instructables.com/Hacking-a-Xyloband-With-Arduino/
