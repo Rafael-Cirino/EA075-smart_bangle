@@ -190,7 +190,9 @@ A seguir são definidos os algoritmos para cada evento e uma aproximação para 
 
 ### PCB
 
-<img src="3d_models/3d_models.png" width=60% height=60%>
+Na imagem a seguir temos o circuito desenvolvolvido no kicad, conforme especificações estruturais aqui definidas.
+
+<img src="3d_models/3d_models.png" width=100% height=100%>
 
 ## Referências
 > - https://pvieito.com/2016/09/xyloband-reverse-engineering
