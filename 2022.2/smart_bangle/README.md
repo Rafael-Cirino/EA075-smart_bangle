@@ -196,7 +196,7 @@ Na imagem a seguir temos o circuito desenvolvolvido no kicad, conforme especific
 
 ### Esquemático
 
-<img src="3d_models/esquematico_smart-bangle.PNG" width=100% height=100%>
+<img src="images/esquematico_smart-bangle.PNG" width=100% height=100%>
 
 
 ## Referências
