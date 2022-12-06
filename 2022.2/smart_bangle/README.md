@@ -143,11 +143,11 @@ A seguir são definidos os algoritmos para cada evento e uma aproximação para 
 
 > Este algoritmo é acionado quando há uma interrupção causada pelo envio de uma mensagem, após recebe-la ele processa ela, seguindo o seguinte formato em binário cctttrgb, podendo ser decodificada através de uma mascara de bit
 > - cc: Seleciona o modo de operação do relógio
->  - mascara: 0b11000000
+>   - mascara: 0b11000000
 > - tt: Seleciona o tempo de operação, serve tanto para o vibra call, quanto para os leds
->  - mascara: 0b00111000
+>   - mascara: 0b00111000
 > - xxx: Esse valor conrreponde a cor de ativação do led ou ao número de vezes que o vibracall vai vibrar.
->  - mascara: 0b00000111
+>   - mascara: 0b00000111
  
  Os modos de operação são definidos conforme a seguinte tabela
  
