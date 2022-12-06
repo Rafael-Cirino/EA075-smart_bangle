@@ -194,6 +194,11 @@ Na imagem a seguir temos o circuito desenvolvolvido no kicad, conforme especific
 
 <img src="3d_models/3d_models.png" width=100% height=100%>
 
+### Esquemático
+
+<img src="3d_models/esquematico_smart-bangle.PNG" width=100% height=100%>
+
+
 ## Referências
 > - https://pvieito.com/2016/09/xyloband-reverse-engineering
 > - https://www.instructables.com/Hacking-a-Xyloband-With-Arduino/
